@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saloni Loya</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #ffffff;
+      color: #1f2d45;
+    }
+
+    /* ---------- hero ---------- */
+    #belt-top {
+      background-color: #cfe3ee;
+      height: 10px;
+    }
+
+    #banner {
+      position: relative;
+      height: 190px;
+      background-image: url("saloni.jpg");
+      background-size: cover;
+      background-position: center 30%;
+    }
+
+    #name {
+      position: absolute;
+      left: 16px;
+      bottom: 12px;
+      width: 120px;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 32px;
+      font-weight: bold;
+      color: #fff1a8;
+    }
+
+    #belt-bottom {
+      background-color: #cfe3ee;
+      padding: 10px 20px;
+    }
+
+    #tagline {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      color: #1f2d45;
+    }
+
+    /* ---------- nav ---------- */
+    #nav {
+      padding: 18px 20px;
+      font-family: Verdana, Geneva, sans-serif;
+    }
+
+    #nav a {
+      display: inline-block;
+      margin: 4px 10px 4px 0;
+      font-weight: bold;
+      color: #1f2d45;
+      text-decoration: none;
+    }
+
+    /* ---------- sections ---------- */
+    .section {
+      padding: 20px;
+    }
+
+    .section h2 {
+      margin: 0 0 18px 0;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #b9d3e3;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 36px;
+      font-weight: bold;
+      color: #1f2d45;
+    }
+
+    .section h3 {
+      margin: 26px 0 4px 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 22px;
+      font-weight: bold;
+      color: #1f2d45;
+    }
+
+    .section p,
+    .section li {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    .section p {
+      margin: 8px 0;
+    }
+
+    .section p.subtitle {
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #5b7384;
+    }
+
+    .section p.detail {
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 16px;
+      color: #5b7384;
+    }
+
+    .section ul {
+      margin: 8px 0;
+      padding-left: 24px;
+    }
+
+    /* ---------- table ---------- */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 10px 8px;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid #b9d3e3;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    th {
+      background-color: #cfe3ee;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 16px;
+    }
+
+    /* ---------- footer ---------- */
+    #footer {
+      background-color: #cfe3ee;
+      padding: 16px 20px;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    /* ---------- desktop / wide screens only (phone is unchanged) ---------- */
+    @media (min-width: 700px) {
+      #banner {
+        height: 520px;
+        background-image: url("saloni.jpg"), linear-gradient(#0c172b, #131b25 55%, #2b241a);
+        background-size: auto 100%, 100% 100%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: center top, center;
+      }
+
+      #name {
+        left: 60px;
+        bottom: 40px;
+        width: 260px;
+        font-size: 60px;
+      }
+
+      #belt-bottom {
+        padding: 14px 60px;
+      }
+
+      #tagline {
+        font-size: 24px;
+      }
+
+      #nav,
+      .section {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="belt-top"></div>
+
+  <div id="banner">
+    <h1 id="name">Saloni Loya</h1>
+  </div>
+
+  <div id="belt-bottom">
+    <p id="tagline">More curious about the why than the what.</p>
+  </div>
+
+  <div id="nav">
+    <a href="#about">about</a>
+    <a href="#education">education</a>
+    <a href="#experience">experience</a>
+    <a href="#projects">projects</a>
+    <a href="#leadership">leadership</a>
+    <a href="#skills">skills</a>
+    <a href="#interests">interests</a>
+    <a href="#contact">contact</a>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About me</h2>
+    <p class="subtitle">Undergraduate Student | Digital Business &amp; Entrepreneurship | IIM Bangalore</p>
+    <p>Interested in understanding how businesses work, what drives decisions, and how ideas become meaningful outcomes.</p>
+    <p>I’m an undergraduate student at IIM Bangalore, pursuing Digital Business &amp; Entrepreneurship.</p>
+    <p>I’ve always been more interested in understanding why things work the way they do rather than simply knowing what they are. I enjoy exploring new ideas, connecting with people and taking responsibility.</p>
+    <p>I’m curious about what drives decisions, how ideas translate into meaningful outcomes and how everything fits into the bigger picture. I hope to explore different areas of business, gain practical experience and discover where my interests and strengths can create the most value.</p>
+    <p>With a growing interest in finance, I’m also aspiring to pursue the CFA qualification.</p>
+  </div>
+
+  <div class="section" id="education">
+    <h2>Education</h2>
+
+    <h3>Indian Institute of Management Bangalore</h3>
+    <p class="detail">Undergraduate Programme in Digital Business &amp; Entrepreneurship | 2026–2029</p>
+
+    <h3>Bhavan’s B.P. Vidya Mandir, Shri Krishna Nagar</h3>
+    <p class="detail">Class XII | 2025–2026 | 94.80%, School Third Topper</p>
+    <p class="detail">Class XI | 2024–2025</p>
+
+    <h3>Centre Point School, Wardhaman Nagar</h3>
+    <p class="detail">Class X | 2024 | 93%</p>
+  </div>
+
+  <div class="section" id="experience">
+    <h2>Experience</h2>
+
+    <h3>Student Intern</h3>
+    <p class="detail">Bank of Baroda</p>
+    <ul>
+      <li>Gained exposure to banking operations, including loans and deposits.</li>
+      <li>Assisted with document verification.</li>
+      <li>Observed credit and operations processes.</li>
+      <li>Interacted with customers and gained an understanding of everyday banking activities.</li>
+    </ul>
+  </div>
+
+  <div class="section" id="projects">
+    <h2>Projects</h2>
+
+    <h3>Donation Drives</h3>
+    <p class="detail">Rotaract Club of Nagpur Ishanya</p>
+    <p>As a director of the club, I helped plan and run our donation drives.</p>
+
+    <h3>Children’s Fest</h3>
+    <p class="detail">Rotaract Club of Nagpur Ishanya</p>
+    <p>We organised a fest for children with fun activities where they could play and talk with each other. Santa Claus also came and gave them gifts.</p>
+
+    <h3>Drive for Old People</h3>
+    <p class="detail">Rotaract Club of Nagpur Ishanya</p>
+    <p>We also organised a drive for old people, and I helped with the planning.</p>
+  </div>
+
+  <div class="section" id="leadership">
+    <h2>Leadership &amp; activities</h2>
+
+    <h3>Rotaract Club of Nagpur Ishanya</h3>
+    <p class="detail">Director &amp; Cultural In-charge, Social Media Manager</p>
+    <p>Contributed to club activities, cultural initiatives and social media management.</p>
+
+    <h3>School Leadership</h3>
+    <p class="detail">School Council Member, Classes X and XII</p>
+    <p>Took responsibility and contributed to school activities.</p>
+
+    <h3>School Model United Nations</h3>
+    <p class="detail">Participant and organiser</p>
+    <p>Participated in school MUNs and helped organise and coordinate them.</p>
+
+    <h3>Sports &amp; Cultural Activities</h3>
+    <p class="detail">Roll Ball and Skating</p>
+    <p>Actively took part in school sports and cultural activities.</p>
+  </div>
+
+  <div class="section" id="achievements">
+    <h2>Achievements</h2>
+    <p>Represented school and Nagpur in state level competitions.</p>
+  </div>
+
+  <div class="section" id="skills">
+    <h2>What I bring</h2>
+    <p class="subtitle">Strengths and skills by category</p>
+
+    <table>
+      <tr>
+        <th>Category</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td>Personal strengths</td>
+        <td>Leadership, Curiosity, Communication, Organisation, Adaptability</td>
+      </tr>
+      <tr>
+        <td>Practical skills</td>
+        <td>Presentation Skills, Event Coordination, Social Media Management</td>
+      </tr>
+      <tr>
+        <td>Currently learning</td>
+        <td>Microsoft Excel, Microsoft PowerPoint</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section" id="interests">
+    <h2>Areas of interest</h2>
+    <ul>
+      <li>Finance</li>
+      <li>Consulting</li>
+      <li>Product Management</li>
+      <li>Business Strategy</li>
+    </ul>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: saloniloya2@gmail.com</p>
+  </div>
+
+  <div id="footer">
+    © 2026 Saloni Loya. Built with HTML and CSS.
+  </div>
+
+</body>
+</html>
