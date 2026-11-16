@@ -1,0 +1,53 @@
+/* ---------- HERO: copy these rules into your own style.css ---------- */
+#belt-top {
+  background-color: #cfe3ee;
+  height: 10px;
+}
+
+#belt-bottom {
+  background-color: #cfe3ee;
+  padding: 10px 20px;
+}
+
+#banner {
+  position: relative;
+  height: 190px;
+  background-image: url("saloni.jpg");
+  background-size: cover;
+  background-position: center 30%;
+}
+
+#name {
+  position: absolute;
+  left: 16px;
+  bottom: 12px;
+  width: 120px;
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff1a8;
+}
+
+#tagline {
+  margin: 0;
+  font-size: 18px;
+  color: #1f2d45;
+}
+
+/* ---------- demo only (you already have your own nav styles) ---------- */
+body {
+  margin: 0;
+}
+
+#nav {
+  padding: 18px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav a {
+  display: inline-block;
+  margin: 4px 10px 4px 0;
+  font-weight: bold;
+  color: #1f2d45;
+  text-decoration: none;
+}
